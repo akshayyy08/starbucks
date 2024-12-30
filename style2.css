@@ -1,0 +1,1303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+.nav-bar {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(181, 55, 55);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    position: fixed;
+}
+
+.nav-bar input {
+    height: 37px;
+    width: 300px;
+    border-radius: 30px;
+    border: 1px solid rgb(55, 78, 21);
+    border: none;
+    box-shadow: 0 1px 1px 1px 1px rgb(150, 147, 147);
+
+}
+
+.nav-bar a {
+
+    color: 2px solid rgb(18, 150, 18);
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+.nav-bar i {
+    padding: 7px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.nav-bar input[placeholder] {
+    padding-left: 40px;
+}
+
+.main-page {
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+}
+
+.main-page .nav-bar2 {
+    height: 180px;
+    width: 100%;
+    background-color: rgb(3, 52, 3);
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.main-page .nav-bar2 {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.main-page .nav-bar2 .button1 {
+    padding: 6px 10px 6px 10px;
+    border-radius: 20px;
+    border: 2px double white;
+    background-color: transparent;
+    color: white;
+
+}
+
+.main-page .White-Line {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+}
+
+.main-page .Menu {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(224, 224, 219);
+}
+
+.main-page .Menu .Barista {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main-page .Menu .Barista .second {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.main-page .Menu .Barista .frist h1 {
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(9, 108, 9);
+}
+
+.main-page .Menu .Barista .frist {
+    padding-left: 80px;
+}
+
+.main-page .Menu .Barista .second p {
+    padding-right: 40px;
+    color: rgb(14, 126, 14);
+    font-size: medium;
+    font-weight: 700;
+}
+
+.menu .items {
+    height: 220px;
+    width: 100%;
+    background-color: rgba(243, 230, 224, 0.034);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.items .frist {
+    height: 150px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 2px 2px rgb(174, 172, 172);
+
+}
+
+.items .frist .top-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 11px;
+    font-weight: 900;
+
+}
+
+.items .frist .top-side h2 {
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.items .frist .down-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.items .frist .top-side dic:nth-child(2) {
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.items .frist .down-side h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.items .frist .down-side button {
+    padding: 2px 10px 2px 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+    background-color: rgb(57, 87, 11);
+    color: white;
+    font-weight: 600;
+
+
+}
+
+.items .frist .down-side button:hover {
+    background-color: rgb(13, 15, 13);
+}
+
+
+
+
+.items .second {
+    height: 150px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 1px 1px rgb(174, 172, 172);
+
+
+}
+
+.items .second .top-side img {
+    margin-right: 9px;
+}
+
+.items .second .top-side div img {
+    margin-top: 5px;
+
+}
+
+.items .second .top-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 11px;
+    font-weight: 900;
+
+}
+
+.items .second .down-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.items .second .top-side dic:nth-child(2) {
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.items .second .top-side h2 {
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.items .second .down-side h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.items .second .down-side button {
+    padding: 2px 10px 2px 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+    background-color: rgb(57, 87, 11);
+    color: white;
+    font-weight: 600;
+
+
+}
+
+.items .second .down-side button:hover {
+    background-color: rgb(13, 15, 13);
+}
+
+.items .third {
+    height: 150px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 1px 1px rgb(174, 172, 172);
+
+}
+
+.items .third .top-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 11px;
+    font-weight: 900;
+
+}
+
+.items .third .top-side h2 {
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.items .third .down-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+
+.items .third .top-side dic:nth-child(2) {
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.items .third .down-side h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.items .third .down-side button {
+    padding: 2px 10px 2px 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+    background-color: rgb(57, 87, 11);
+    color: white;
+    font-weight: 600;
+
+
+}
+
+.items .third .down-side button:hover {
+    background-color: rgb(13, 15, 13);
+}
+
+.collection {
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collection .col1 {
+    height: 250px;
+    width: 85%;
+    background-image: url("https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Banner_BG_Web_Spring_3_a204d113d7.jpg");
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.collection .col1 .frist {
+
+    border-radius: 10px 0px 0px 0px;
+}
+
+.collection .col1 .second {
+    margin-left: 10px;
+}
+
+.collection .col1 .second p {
+    margin-top: 30px;
+}
+
+.collection .col1 .second .head {
+    margin-top: -30px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.collection .col1 .second h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.collection .col1 .second h1 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.collection .col1 .second b {
+    font-weight: 700;
+}
+
+.collection .col1 .third button {
+    border-radius: 30px;
+    padding: 8px 70px 8px 70px;
+    background-color: green;
+    color: white;
+    font-weight: 400;
+    margin-left: 320px;
+    margin-top: 150px;
+}
+
+.main1 {
+    background-color: aqua;
+    height: 400px;
+    width: 100%;
+}
+
+.main1 .handcrafted {
+    background-color: white;
+}
+
+.main2 {
+    height: 400px;
+    width: 100%;
+    margin-top: -100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+
+}
+
+.main2 .head-images {
+    height: 180px;
+    width: 85%;
+
+    margin-left: 110px;
+
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.main2 .head-images .heading h2 {
+    height: 50px;
+
+    font-weight: 700;
+    color: rgb(10, 64, 10);
+    padding-top: 5px;
+}
+
+.main2 .head-images .images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+
+.main2 .head-images .images img {
+    border-radius: 60px;
+
+}
+
+.main2 .head-images .images img:hover {
+    border: 3px solid rgb(13, 140, 13);
+    cursor: pointer;
+}
+
+.main2 .head-images .names {
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.main2 .head-images .names .frist h1 {
+    font-weight: 400;
+    font-size: medium;
+    padding-left: 15px;
+}
+
+.main2 .head-images .names .second h1 {
+    font-weight: 400;
+    font-size: medium;
+    padding-left: 90px;
+}
+
+.main2 .head-images .names .third h1 {
+    font-weight: 400;
+    font-size: medium;
+    padding-left: 100px;
+}
+
+.main2 .head-images .names .fourth h1 {
+    font-weight: 400;
+    font-size: medium;
+    padding-left: 95px;
+}
+
+.main2 .head-images .names .fifth h1 {
+    font-weight: 400;
+    font-size: medium;
+    padding-right: -85px;
+    padding-left: 38px;
+}
+
+.main2 .head-images .names .sixth h1 {
+    font-weight: 400;
+    font-size: medium;
+    padding-left: 15px;
+}
+
+.main3 {
+    height: 480px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+
+
+}
+
+.main3 .main3-header .title {
+    height: 40px;
+    width: 1300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 95px;
+    color: black;
+    margin-bottom: -30px;
+}
+
+.main3 .main3-header .title h2 {
+    font-weight: 700;
+}
+
+.main3 .main3-header .slides {
+    height: 450px;
+    width: 88%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main3 .main3-header .slides .frist {
+    height: 340px;
+    width: 31%;
+
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+
+}
+
+.main3 .main3-header .slides .second {
+    height: 340px;
+    width: 31%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+
+}
+
+.main3 .main3-header .slides .third {
+    height: 340px;
+    width: 31%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.main3 .main3-header .slides .frist .Content {
+    height: 150px;
+    width: 31%;
+    display: contents;
+    padding-left: 50px;
+    padding-top: 12px;
+
+
+
+}
+
+.main3 .main3-header .slides .frist .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main3 .main3-header .slides .frist .button .btn1 {
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+.main3 .main3-header .slides .frist .button .btn2 {
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+.main3 .main3-header .slides .second .button .btn1 {
+    margin-left: 20px;
+    margin-bottom: 180px;
+}
+
+.main3 .main3-header .slides .second .button .btn2 {
+    margin-right: 20px;
+    margin-bottom: 180px;
+    margin-top: -10px;
+}
+
+.main3 .main3-header .slides .third .button .btn1 {
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+.main3 .main3-header .slides .third .button .btn2 {
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+
+.main3 .main3-header .slides .second .Content {
+    height: 150px;
+    width: 31%;
+    display: contents;
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+
+.main3 .main3-header .slides .second .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.main3 .main3-header .slides .third .Content {
+    height: 150px;
+    width: 31%;
+    display: contents;
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+
+.main3 .main3-header .slides .third .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 12px;
+}
+
+.main3 .main3-header .slides .frist .Content img {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.main3 .main3-header .slides .frist .Content p {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+
+
+
+}
+
+.main3 .main3-header .slides .frist .Content h3 {
+    font-size: 10px;
+    font-weight: 300;
+    padding-bottom: 8px;
+    padding-left: 10px;
+
+
+
+}
+
+.main3 .main3-header .slides .frist .Content .one {
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+.main3 .main3-header .slides .frist .Content .two {
+    font-size: 11px;
+    padding-bottom: 45px;
+    padding-left: 10px;
+}
+
+.main3 .main3-header .slides .frist .button .btn1 h1 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.main3 .main3-header .slides .frist .button .btn2 button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    background-color: rgb(10, 119, 10);
+    color: white;
+    font-weight: 400;
+    border-bottom: 50px;
+    border-right: 50px;
+    border-left: -80px;
+}
+
+.main3 .main3-header .slides .frist .button .btn2 button:hover {
+    background-color: rgb(11, 64, 11);
+    cursor: pointer;
+}
+
+
+
+.main3 .main3-header .slides .second .Content img {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.main3 .main3-header .slides .second .Content p {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+
+
+
+}
+
+.main3 .main3-header .slides .second .Content h3 {
+    font-size: 10px;
+    font-weight: 300;
+    padding-bottom: 8px;
+    padding-left: 10px;
+
+
+
+}
+
+.main3 .main3-header .slides .second .Content .one {
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+.main3 .main3-header .slides .second .Content .two {
+    font-size: 11px;
+    padding-bottom: 45px;
+    padding-left: 10px;
+}
+
+.main3 .main3-header .slides .second .button .btn1 h1 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.main3 .main3-header .slides .second .button .btn2 button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    background-color: rgb(10, 119, 10);
+    color: white;
+    font-weight: 400;
+    border-bottom: 50px;
+    border-right: 50px;
+    border-left: -80px;
+}
+
+.main3 .main3-header .slides .second .button .btn2 button:hover {
+    background-color: rgb(11, 64, 11);
+    cursor: pointer;
+}
+
+
+.main3 .main3-header .slides .third .Content img {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.main3 .main3-header .slides .third .Content p {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+
+
+
+}
+
+.main3 .main3-header .slides .third .Content h3 {
+    font-size: 10px;
+    font-weight: 300;
+    padding-bottom: 8px;
+    padding-left: 10px;
+
+
+
+}
+
+.main3 .main3-header .slides .third .Content .one {
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+.main3 .main3-header .slides .third .Content .two {
+    font-size: 11px;
+    padding-bottom: 45px;
+    padding-left: 10px;
+}
+
+.main3 .main3-header .slides .third .button .btn1 h1 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.main3 .main3-header .slides .third .button .btn2 button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    background-color: rgb(10, 119, 10);
+    color: white;
+    font-weight: 400;
+    border-bottom: 50px;
+    border-right: 50px;
+    border-left: -80px;
+}
+
+.main3 .main3-header .slides .third .button .btn2 button:hover {
+    background-color: rgb(11, 64, 11);
+    cursor: pointer;
+}
+
+.main4 {
+    height: 530px;
+    width: 100%;
+    background-color: rgb(224, 224, 219);
+}
+
+.main4 .main-header .heading {
+    height: 90px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main4 .main-header .heading .one {
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(6, 77, 6);
+    padding-left: 90px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main4 .main-header .heading .two {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(32, 138, 32);
+    padding-right: 85px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.body {
+    height: 380px;
+    width: 87.8%;
+    background-color: aqua;
+    margin-left: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-image: url(/images/Women_Day_.jpg);
+    background-position: 0.5px;
+    backface-visibility: visible;
+    padding-left: 30px;
+
+
+}
+
+.body nav {
+    height: 50px;
+
+    padding-top: 12px;
+
+}
+
+.body nav button {
+    border-radius: 5px;
+    font-size: 11.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(20, 165, 20);
+    font-weight: 400;
+}
+
+.body div h2 {
+    padding-top: 160px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.body div h1 {
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.body .one {
+    margin-top: 40px;
+
+}
+
+.body .one button {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.space {
+    height: 40px;
+    width: 100%;
+}
+
+.main5 {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(5, 65, 5);
+
+
+}
+
+.main5 .main5-header {
+    display: flex;
+}
+
+.main5 .main5-header .frist {
+    height: 700px;
+    width: 17%;
+
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+
+
+.main5 .main5-header .second {
+    height: 700px;
+    width: 17%;
+
+    padding-left: 50px;
+    padding-top: 65px;
+    color: white;
+}
+
+.main5 .main5-header .second ol .one h1:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .second ol .one h1 {
+    font-weight: 600;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+.main5 .main5-header .second ol .two h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 19px;
+}
+
+.main5 .main5-header .second ol .two h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .second ol .three h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .second ol .four h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .second ol .three h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 19px;
+}
+
+.main5 .main5-header .second ol .four h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.main5 .main5-header .third {
+    height: 700px;
+    width: 17%;
+
+    padding-left: 12px;
+    padding-top: 65px;
+    color: white;
+}
+
+.main5 .main5-header .third ol .one h2 {
+    font-weight: 600;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+.main5 .main5-header .third ol .two h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 19px;
+}
+
+.main5 .main5-header .third ol .three h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 19px;
+}
+
+.main5 .main5-header .third ol .four h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 19px;
+}
+
+.main5 .main5-header .third ol .five h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.main5 .main5-header .third ol .one h2:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .third ol .two h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .third ol .three h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .third ol .four h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .third ol .five h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .fourth {
+    height: 700px;
+    width: 17%;
+
+    padding-left: 12px;
+    padding-top: 65px;
+    color: white;
+}
+
+
+.main5 .main5-header .fourth ol .one h1 {
+    font-weight: 600;
+    font-size: larger;
+    padding-bottom: 23px;
+}
+
+
+.main5 .main5-header .fourth ol .one h1:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .fourth ol .two h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 23px;
+}
+
+.main5 .main5-header .fourth ol .two h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .fourth ol .three h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 23px;
+}
+
+.main5 .main5-header .fourth ol .four h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 19px;
+}
+
+.main5 .main5-header .fourth ol .five h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 23px;
+}
+
+.main5 .main5-header .fourth ol .six h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 23px;
+}
+
+.main5 .main5-header .fourth ol .seven h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 23px;
+}
+
+.main5 .main5-header .fourth ol .eight h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 23px;
+}
+
+.main5 .main5-header .fourth ol .nine h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 23px;
+}
+
+.main5 .main5-header .fourth ol .nine h4 .im1 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 23px;
+    padding-top: 5px;
+}
+
+.main5 .main5-header .fourth ol .ten h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 23px;
+}
+
+.main5 .main5-header .fourth ol .eleven h4 {
+    font-weight: 350;
+    font-size: 15px;
+    padding-bottom: 23px;
+}
+
+.main5 .main5-header .fourth ol .two h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .fourth ol .three h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .fourth ol .four h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .fourth ol .five h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .fourth ol .six h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .fourth ol .seven h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .fourth ol .eight h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .fourth ol .nine h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .fourth ol .ten h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main5 .main5-header .fourth ol .eleven h4:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+
+.main5 .main5-header .fifth {
+    height: 700px;
+    width: 17%;
+
+    padding-left: 12px;
+    padding-top: 65px;
+    color: white;
+}
+
+.main5 .main5-header .fifth ol li h1 {
+    font-weight: 600;
+    font-size: larger;
+    padding-bottom: 23px;
+    padding-left: 42px;
+}
+
+.main5 .main5-header .fifth .social {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: -12px;
+}
+
+.main5 .main5-header .fifth .social .two {
+    margin-left: -25px;
+}
+
+.main5 .main5-header .fifth .social .three {
+    margin-left: -25px;
+}
+
+.main5 .main5-header .sixth {
+    height: 700px;
+    width: 17%;
+
+
+    padding-left: 9px;
+    padding-top: 65px;
+}
+
+.main6 {
+    height: 98.5px;
+    width: 100%;
+    background-color: rgb(5, 65, 5);
+}
+
+.main6 .line {
+    height: 20px;
+    width: 93%;
+    background-color: rgb(5, 65, 5);
+}
+
+.main6 .line hr {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-top: 0.01px;
+    background-color: white;
+    margin-bottom: -20px;
+    padding-bottom: -20px;
+}
+
+.main6 .footer .footer-main {
+    height: 50px;
+    width: 86.5%;
+    background-color: rgb(5, 65, 5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-bottom: 60px;
+
+}
+
+.main6 .footer .footer-main .foot-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main6 .footer .footer-main .foot-1 .one h5 {
+    padding-right: 10px;
+    font-weight: 300;
+}
+
+.main6 .footer .footer-main .foot-1 .two {
+    padding-right: 10px;
+}
+
+.main6 .footer .footer-main .foot-1 .three h5 {
+    padding-right: 10px;
+    font-weight: 300;
+}
+
+.main6 .footer .footer-main .foot-1 .four {
+    padding-right: 10px;
+}
+
+.main6 .footer .footer-main .foot-1 .five h5 {
+    padding-right: 10px;
+    font-weight: 300;
+}
+
+.main6 .footer .footer-main .foot-1 .six {
+    padding-right: 10px;
+}
+
+.main6 .footer .footer-main .foot-1 .seven h5 {
+    font-weight: 300;
+}
+
+.main6 .footer .footer-main .foot-2 {
+    margin-bottom: 20px;
+    padding-bottom: -50px;
+}
